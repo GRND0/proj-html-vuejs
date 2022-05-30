@@ -182,6 +182,108 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-2">
+            <img src="../assets/img/client-logo-05-primary.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="../assets/img/client-logo-06-primary.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="../assets/img/client-logo-07-primary.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="../assets/img/client-logo-04-primary.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="../assets/img/client-logo-03-primary.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="../assets/img/client-logo-02-primary.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section>
+      <div class="container-fluid position-relative">
+        <div class="rounded-circle selettore-tondo d-flex flex-column justify-content-center align-items-center">
+          <img class="freccia" src="../assets/img/image.png" alt="">
+          <small>1/4</small>
+          <img class="freccia" src="../assets/img/image (1).png" alt="">
+        </div>
+        <div class="row">
+          <div class="col d-flex flex-column justify-content-center align-items-center testimonial-sx">
+            <small>real stories</small>
+            <span class="w-75">
+              I am fre to learn at my own pace, follow my own schedule and choose the subject i want to learn from the
+              syllabus. Great study portal for people like me.
+            </span>
+            <div class="">
+              <img id="testimonial-tondo" class="rounded-circle" src="../assets/img/testimonial-avata-02.jpg" alt="">
+            </div>
+            <small>mina hollace</small>
+            <small>/Freelancer</small>
+          </div>
+          <div class="col">
+            <img src="../assets/img/home-movation-testimonial-image-768x562.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-interno">
+        <div>
+          <small>blog updated</small>
+          <h4>Intersting articles updated daily</h4>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img src="../assets/img/motivation-blog-04-480x325.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../assets/img/motivation-blog-03-480x325.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../assets/img/motivation-blog-02-480x325.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../assets/img/motivation-blog-01-480x325.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          VIEW ALL POSTS
+        </div>
       </div>
     </section>
   </div>
@@ -230,5 +332,30 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
 
+}
+
+.testimonial-sx {
+  background-image: url(../assets/img/background-pattern-wavify.png);
+  background-color: #f7f7fd;
+}
+
+.selettore-tondo {
+  background-color: $bianco;
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+  .freccia {
+    width: 7px;
+  }
+}
+
+#testimonial-tondo {
+  width: 70px;
 }
 </style>
