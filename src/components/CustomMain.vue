@@ -3,22 +3,22 @@
     <section class="mb-5">
       <div class="container-fluid">
         <div class="wrapper-interno">
-          <div class="row d-flex align-items-center" id="statistiche">
+          <div class="row d-flex align-items-center mb-3" id="statistiche">
             <div class="col h-50 box-statistiche text-center">
-              <p class="testo-verde">1926</p>
-              <p>finished sessions</p>
+              <p class="ms_testo-verde fw-bold fs-1">1926</p>
+              <p class="text-uppercase ms_bolder">finished sessions</p>
             </div>
             <div class="col h-50 box-statistiche text-center">
-              <p class="testo-verde">100%</p>
-              <p>satisfaction rate</p>
+              <p class="ms_testo-verde fw-bold fs-1">100%</p>
+              <p class="text-uppercase ms_bolder">satisfaction rate</p>
             </div>
             <div class="col h-50 box-statistiche text-center">
-              <p class="testo-verde">3092+</p>
-              <p>enrolled learners</p>
+              <p class="ms_testo-verde fw-bold fs-1">3092+</p>
+              <p class="text-uppercase ms_bolder">enrolled learners</p>
             </div>
             <div class="col h-50 box-statistiche-last text-center">
-              <p class="testo-verde">200</p>
-              <p>online instructors</p>
+              <p class="ms_testo-verde fw-bold fs-1">200</p>
+              <p class="text-uppercase ms_bolder">online instructors</p>
             </div>
           </div>
         </div>
@@ -26,14 +26,17 @@
       <div class="wrapper-interno">
         <div class="row">
           <div class="col">
-            <p>ABOUT ME</p>
-            <p>how to be an alpha male: the 15 habits of true alphas</p>
+            <div class="w-75">
+              <p class="ms_testo-verde">ABOUT ME</p>
+              <p class="text-capitalize fs-1">how to be an alpha male: the 15 habits of true alphas</p>
+            </div>
           </div>
-          <div class="col">
-            <p>Want to learn how to be an alpha male? How to be more masculine? How to be the man you've always wanted
+
+          <div class="col " >
+            <p class="fw-bolder">Want to learn how to be <span class="ms_testo-verde">an alpha male</span>? How to be more masculine? How to be the man you've always wanted
               to
               be?</p>
-            <p>Your goal is to show the consistency of business, core values, and customer care. Punctuality,
+            <p class="ms_testo-grigio fw-semibold">Your goal is to show the consistency of business, core values, and customer care. Punctuality,
               responsability, individuality, accuracy, enthusiasm - you have to clearly explain how these qualities are
               applicable to your work. And the important thing is you do love what you do.</p>
           </div>
@@ -298,6 +301,18 @@ export default {
 <style lang="scss">
 @import "../style/common.scss";
 
+.ms_testo-verde {
+  color: #20ad96;
+}
+
+.ms_testo-grigio {
+  color: grey;
+}
+
+.ms_bolder {
+  font-weight: 500;
+}
+
 #statistiche {
   width: 100%;
   height: 300px;
@@ -314,15 +329,12 @@ export default {
 
   }
 
-  p {
+  /*p {
     text-transform: uppercase;
-  }
+    font-weight: 500;
+  }*/
 
-  .testo-verde {
-    color: #20ad96;
-    font-size: 3rem;
-    font-weight: 700;
-  }
+
 
 }
 

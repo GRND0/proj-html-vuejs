@@ -57,6 +57,7 @@ export default {
 
 
 
+
 #wrapper-header {
   height: 80vh;
   background-image: url(../assets/img/background-pattern-wavify.png);
@@ -64,6 +65,10 @@ export default {
 
   #barra-header {
     height: 80px;
+
+    .nav li {
+      font-family: 'Montserrat', sans-serif;
+    }
   }
 
   #jumbotron {
@@ -78,6 +83,7 @@ export default {
     }
 
     span {
+      font-family: 'Playfair Display', serif;
       text-transform: capitalize;
       font-size:4rem;
     }

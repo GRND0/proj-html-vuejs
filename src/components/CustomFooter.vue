@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid">
+    <div class="container-fluid-footer position relative">
       <div class="wrapper-footer">
         <div class="row">
           <div class="col">
@@ -40,6 +40,9 @@
         </div>
         <span>C Maxcoach. All Rights Reserved</span>
       </div>
+      <div class="tondo-freccia">
+
+      </div>
     </div>
   </div>
 </template>
@@ -53,7 +56,7 @@ export default {
 <style lang="scss">
 @import "../style/common.scss";
 
-.container-fluid {
+.container-fluid-footer {
 
   background-color: #171621;
 
