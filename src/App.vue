@@ -9,7 +9,7 @@
 <script>
 import CustomHeader from "./components/CustomHeader.vue";
 import CustomMain from "./components/CustomMain.vue";
-import CustomFooter from "./components/CustomFooter.vue"
+import CustomFooter from "./components/CustomFooter.vue";
 
 export default {
   name: "App",
@@ -17,10 +17,8 @@ export default {
     CustomHeader,
     CustomMain,
     CustomFooter,
-},
+  },
 };
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
