@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid-footer position relative">
+    <div class="container-fluid-footer">
       <div class="wrapper-footer">
         <div class="row h-75 my-auto">
           <div class="col d-flex flex-column justify-content-center ">
@@ -14,34 +14,28 @@
             <span class="mb-5">
               support@maxcoach.com
             </span>
-            <div >
+            <div>
               <i class="fab fa-facebook-square"></i>
               <i class="fab fa-twitter"></i>
               <i class="fab fa-instagram"></i>
               <i class="fab fa-linkedin"></i>
             </div>
           </div>
-          <div class="col d-flex">
-            <ul>Explore
-              <li v-for="(item, index) in items" :key="index" >{{item.tag}} </li>
-              <!-- <li>Blog</li> 
-              <li>About us</li>
-              <li>Success story</li>
-              <li>Courses</li>
-              <li>Contact us</li>-->
+          <div class="col d-flex justify-content-evenly align-items-center">
+            <ul class="d-flex flex-column flex-wrap"><p class="text-white fw-bolder ">Explore</p> 
+              <li class="mb-2" v-for="(item, index) in items" :key="index">{{ item.tag }} </li>
             </ul>
-            <ul>Information
-              <li v-for="(item, index) in itemsD" :key="index" >{{item.tag}}</li>
-              <!-- <li>Purchase guide</li> 
-              <li>Privacy policy</li>
-              <li>Terms of service</li>-->
+            <ul> <p class="text-white fw-bolder">Information</p> 
+              <li class="mb-2" v-for="(item, index) in itemsD" :key="index">{{ item.tag }}</li>
             </ul>
           </div>
         </div>
         <span>C Maxcoach. All Rights Reserved</span>
       </div>
-      <div class="tondo-freccia">
-
+      <div class="position-relative">
+        <div class="tondo-freccia rounded-circle d-flex flex-column justify-content-center align-items-center">
+          <i class="fas fa-long-arrow-alt-up text-white"></i>
+        </div>
       </div>
     </div>
   </div>
@@ -50,7 +44,7 @@
 <script>
 export default {
   name: "CustomFooter",
-    props: {
+  props: {
     items: Array,
     itemsD: Array,
   },
@@ -59,6 +53,16 @@ export default {
 
 <style lang="scss">
 @import "../style/common.scss";
+
+.tondo-freccia {
+  background-color: #20ad96;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+}
 
 .container-fluid-footer {
 
