@@ -28,16 +28,16 @@
         <div class="row">
           <div id="claim" class="col d-flex flex-column justify-content-center align-items-start pe-5">
             <small>i'm wingman</small>
-            <span>peace on earth a wonderful wish but no way</span>
-            <p>
+            <span class="w-75">peace on earth a wonderful wish but no way</span>
+            <p class="w-75">
               Success isn't overnight. It's when everyday you get a little better
               than the day before. It all adds up.
             </p>
-            <a class="btn btn-primary" href="#" role="button">get started for free</a>
+            <a class="btn btn-primary ms_btn-custom" href="#" role="button">get started for free</a>
 
           </div>
           <div id="testimonial" class="col d-flex justify-content-end position-relative">
-            <img id="disegno" class="position-absolute bottom-0 end-0 h-75"  src="../assets/img/home-movation-shape-face.png" alt="">
+            <img id="disegno" class="h-75"  src="../assets/img/home-movation-shape-face.png" alt="">
             <img id="uomo" src="../assets/img/home-movation-hero-image.png" alt="" />
           </div>
         </div>
@@ -56,7 +56,10 @@ export default {
 @import "../style/common.scss";
 
 
-
+.ms_btn-custom {
+    padding: 1rem;
+    background-color:#20ad96;
+}
 
 #wrapper-header {
   height: 80vh;
@@ -89,7 +92,14 @@ export default {
     }
 
     #disegno {
-      z-index: -1;
+      z-index: 0;
+      position: absolute;
+      bottom: 0%;
+      left: 25%;
+    }
+
+    #uomo {
+      z-index: 1;
     }
 
 

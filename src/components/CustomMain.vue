@@ -23,269 +23,305 @@
           </div>
         </div>
       </div>
-      <div class="wrapper-interno">
+      <div class="wrapper-interno mb-5">
         <div class="row">
           <div class="col">
             <div class="w-75">
               <p class="ms_testo-verde">ABOUT ME</p>
-              <p class="text-capitalize fs-1">how to be an alpha male: the 15 habits of true alphas</p>
+              <p class="text-capitalize fs-1 ms_font-alternativo">how to be an alpha male: the 15 habits of true alphas
+              </p>
             </div>
           </div>
 
-          <div class="col " >
-            <p class="fw-bolder">Want to learn how to be <span class="ms_testo-verde">an alpha male</span>? How to be more masculine? How to be the man you've always wanted
+          <div class="col d-flex flex-column justify-content-around">
+            <p class="fw-bolder">Want to learn how to be <span class="ms_testo-verde">an alpha male</span>? How to be
+              more masculine? How to be the man you've always wanted
               to
               be?</p>
-            <p class="ms_testo-grigio fw-semibold">Your goal is to show the consistency of business, core values, and customer care. Punctuality,
+            <p class="ms_testo-grigio fw-semibold">Your goal is to show the consistency of business, core values, and
+              customer care. Punctuality,
               responsability, individuality, accuracy, enthusiasm - you have to clearly explain how these qualities are
               applicable to your work. And the important thing is you do love what you do.</p>
           </div>
         </div>
       </div>
-      <div class="wrapper-interno">
+      <div class="wrapper-interno mb-5">
         <div class="row">
           <div class="col position-relative">
-            <img src="../assets/img/home-movation-video-poster-670x450.jpg" alt="">
+            <img class="rounded" src="../assets/img/home-movation-video-poster-670x450.jpg" alt="">
             <img class="youtube" src="../assets/img/icon-youtube-play.png" alt="">
           </div>
-          <div class="col d-flex flex-column justify-content-center align-items-start">
-            <p>"Every morning you have two choices: continue to sleep with your dreams, or wake up and chase them."</p>
-            <img src="../assets/img/home-movation-shape-01.png" alt="">
-            <h6>Kaixa Stark</h6>
-            <small>wingman</small>
-
-
+          <div class="col d-flex flex-column justify-content-center align-items-baseline">
+            <p class="ms_font-alternativo fw-semibold fs-3 w-50 mb-5">"Every morning you have two choices: continue to
+              sleep with your dreams, or wake up and chase them."</p>
+            <img class="mb-3" src="../assets/img/home-movation-shape-01.png" alt="">
+            <h6 class="mb-1 fw-bolder">Kaixa Stark</h6>
+            <small class="ms_testo-grigio text-uppercase fs-6">wingman</small>
           </div>
         </div>
       </div>
     </section>
-    <section>
-      <div class="text-center">
-        <p>begin your journey at maxcoach</p>
-        <span>Latest Online Courses</span>
+    <section class="mb-5">
+      <div class="text-center mb-5">
+        <p class="text-uppercase ms_testo-grigio fw-semibold fs-6">begin your journey at maxcoach</p>
+        <p class="ms_font-alternativo fs-1">Latest <span class="ms_font-alternativo ms_testo-verde fs-1">Online
+            Courses</span></p>
       </div>
-      <div class="wrapper-interno">
+      <div class="wrapper-interno mb-3">
         <div class="row">
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-course-06-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <small></small>
-                <small></small>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title ms_testo-verde fw-bolder">$30.<span class="fs-6">00</span></h5>
+                <p class="card-text fw-bolder mb-4">How to be Successful: Create A Growth Mindset For Success</p>
+                <div>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 3 Lessons</small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                </div>
+
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-course-05-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <small></small>
-                <small></small>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title ms_testo-verde fw-bolder">$30.<span class="fs-6">00</span></h5>
+                <p class="card-text fw-bolder mb-4">How to Build Confidence in Your Abilities</p>
+                <div>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 1 Lessons</small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                </div>
+
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-course-04-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <small></small>
-                <small></small>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title ms_testo-verde fw-bolder">$20.<span class="fs-6">00</span></h5>
+                <p class="card-text fw-bolder mb-4">Productivity Machine - Focus in a Distracted World</p>
+                <div>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 5 Lessons</small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                </div>
               </div>
             </div>
           </div>
 
         </div>
       </div>
-      <div class="wrapper-interno">
+      <div class="wrapper-interno mb-5">
         <div class="row">
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-course-03-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <small></small>
-                <small></small>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title ms_testo-verde fw-bolder">$20.<span class="fs-6">00</span></h5>
+                <p class="card-text fw-bolder mb-4">Effective Time Management Mastery - Complete Guide</p>
+                <div>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 18 Lessons</small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-course-02-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <small></small>
-                <small></small>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title ms_testo-verde fw-bolder">$25.<span class="fs-6">99</span></h5>
+                <p class="card-text fw-bolder mb-4">Body Language Secrets for Entrepreneurs</p>
+                <div>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 19 Lessons</small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-course-01-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <small></small>
-                <small></small>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title ms_testo-verde fw-bolder">$19.<span class="fs-6">99</span></h5>
+                <p class="card-text fw-bolder mb-4">Management Skills: The Science of Leadership</p>
+                <div>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 17 Lessons</small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-2 mx-auto">
-          <a class="btn btn-primary " href="#" role="button">get started for free</a>
+        <div class="col-2 mx-auto mb-4">
+          <a class="btn btn-primary " href="#" role="button">View all courses <i
+              class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
 
     </section>
-    <section>
+    <section class="ms_spaziatore">
       <div class="wrapper-interno">
-        <div class="row">
+        <div class="row ms_spaziatore">
           <div class="col">
-            <small>book store online</small>
-            <h2>be alpha with wingman's book</h2>
-            <ul>
-              <li>
-                Help you understand yourself better
+            <small class="text-uppercase">book store online</small>
+            <h2 class="ms_font-alternativo text-capitalize mb-4">be alpha with <br> <span
+                class="ms_testo-verde ms_font-alternativo">wingman's book</span></h2>
+            <ul class="ms_testo-grigio p-0">
+              <li class="mb-2">
+                <i class="fas fa-check me-3 ms_testo-verde"></i> Help you understand yourself better
               </li>
-              <li>
-                Revealing mature tips
+              <li class="mb-2">
+                <i class="fas fa-check me-3 ms_testo-verde"></i> Revealing mature tips
               </li>
-              <li>
-                Give the right advice
+              <li class="mb-2">
+                <i class="fas fa-check me-3 ms_testo-verde"></i> Give the right advice
               </li>
-              <li>
-                Fascinating examples of alpha man
+              <li class="mb-2">
+                <i class="fas fa-check me-3 ms_testo-verde"></i> Fascinating examples of alpha man
               </li>
             </ul>
-            <button>Get Free Ebook</button>
+            <a class="btn btn-primary" href="#" role="button">Get Free Ebook</a>
           </div>
           <div class="col d-flex">
-            <div class="text-center me-2">
-              <img src="../assets/img/product-book-11-400x400.jpg" alt="">
-              <p>Alpha man by Maxcoach</p>
-              <small>$29.00</small>
+            <div class="text-center me-2 position-relative" @mouseover="hover = false" @mouseout="hover = true">
+              <div class="wrapper-hover position-absolute h-100 w-100" :class="{ hovering: hover }">
+                <div id="" class="d-flex flex-column icone-hover">
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="fas fa-search"></i></div>
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="fas fa-cart-plus"></i></div>
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="far fa-heart"></i></div>
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="fas fa-signal"></i></div>
+                </div>
+              </div>
+              <img class="mb-3 img-libri" src="../assets/img/product-book-11-400x400.jpg" alt="">
+              <p class="fw-bolder">Alpha man by Maxcoach</p>
+              <small class="ms_testo-verde fw-bolder fs-5">$29.<span class="fs-6">00</span></small>
             </div>
-            <div class="text-center ms-2">
-              <img src="../assets/img/product-book-10-400x400.jpg" alt="">
-              <p> Real man 4.0 by Maxcoach</p>
-              <small>$39.00</small>
+
+            <div class="text-center ms-2 position-relative" @mouseover="hoverDue = false" @mouseout="hoverDue = true">
+              <div class="wrapper-hover position-absolute h-100 w-100" :class="{ hovering: hoverDue }">
+                <div id="" class="d-flex flex-column icone-hover">
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="fas fa-search"></i></div>
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="fas fa-cart-plus"></i></div>
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="far fa-heart"></i></div>
+                  <div class="rounded-circle ms_icona-tonda d-flex justify-content-center align-items-center mb-2"><i
+                      class="fas fa-signal"></i></div>
+                </div>
+              </div>
+              <img class="mb-3 img-libri" src="../assets/img/product-book-10-400x400.jpg" alt="">
+              <p class="fw-bolder"> Real man 4.0 by Maxcoach</p>
+              <small class="ms_testo-verde fw-bolder fs-5">$39.<span class="fs-6">00</span></small>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-2">
-            <img src="../assets/img/client-logo-05-primary.png" alt="">
+            <img class="ms_filtro" src="../assets/img/client-logo-05-primary.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col-2 ms_filtro">
             <img src="../assets/img/client-logo-06-primary.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col-2 ms_filtro">
             <img src="../assets/img/client-logo-07-primary.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col-2 ms_filtro">
             <img src="../assets/img/client-logo-04-primary.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col-2 ms_filtro">
             <img src="../assets/img/client-logo-03-primary.png" alt="">
           </div>
-          <div class="col-2">
+          <div class="col-2 ms_filtro">
             <img src="../assets/img/client-logo-02-primary.png" alt="">
           </div>
         </div>
       </div>
 
     </section>
-    <section>
-      <div class="container-fluid position-relative">
+    <section class="ms_spaziatore">
+      <div class="container-fluid position-relative g-0 ms_spaziatore">
         <div class="rounded-circle selettore-tondo d-flex flex-column justify-content-center align-items-center">
-          <img class="freccia" src="../assets/img/image.png" alt="">
+          <img class="freccia mb-1" src="../assets/img/image.png" alt="">
           <small>1/4</small>
-          <img class="freccia" src="../assets/img/image (1).png" alt="">
+          <img class="freccia mt-1" src="../assets/img/image (1).png" alt="">
         </div>
-        <div class="row">
+        <div class="row g-0">
           <div class="col d-flex flex-column justify-content-center align-items-center testimonial-sx">
-            <small>real stories</small>
-            <span class="w-75">
+            <small class="ms_testo-verde text-uppercase ms_spaziatore">real stories</small>
+            <span class="w-50 mb-5 text-center">
               I am fre to learn at my own pace, follow my own schedule and choose the subject i want to learn from the
               syllabus. Great study portal for people like me.
             </span>
             <div class="">
-              <img id="testimonial-tondo" class="rounded-circle" src="../assets/img/testimonial-avata-02.jpg" alt="">
+              <img id="testimonial-tondo" class="rounded-circle mb-3" src="../assets/img/testimonial-avata-02.jpg"
+                alt="">
             </div>
-            <small>mina hollace</small>
-            <small>/Freelancer</small>
+            <small class="text-capitalize mb-3">mina hollace</small>
+            <small class="ms_testo-grigio mb-3">/Freelancer</small>
           </div>
           <div class="col">
-            <img src="../assets/img/home-movation-testimonial-image-768x562.jpg" alt="">
+            <img class="" src="../assets/img/home-movation-testimonial-image.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="wrapper-interno">
         <div>
-          <small>blog updated</small>
-          <h4>Intersting articles updated daily</h4>
+          <small class="text-uppercase mb-4 ">blog updated</small>
+          <h4 class="ms_font-alternativo fs-1 mb-5">Intersting <span class="ms_testo-verde ms_font-alternativo">articles
+              updated daily</span></h4>
         </div>
-        <div class="row">
+        <div class="row mb-4">
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-blog-04-480x325.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
+                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
+                <h5 class="card-title text-capitalize mb-3">how to stay true to your personal brand</h5>
+                <p class="card-text ms_testo-grigio">When it comes to your business or career, you want ...</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-blog-03-480x325.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
+                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
+                <h5 class="card-title text-capitalize mb-3">5 vital lessons in 5 years of freelancing</h5>
+                <p class="card-text ms_testo-grigio">Being self-employed and working from home, it's easy to get ...</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-blog-02-480x325.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
+                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
+                <h5 class="card-title text-capitalize mb-3">11 super useful tips for small-business owners</h5>
+                <p class="card-text ms_testo-grigio">Being a small-business owner poses a ton of challenges. We ...</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card border-0">
               <img src="../assets/img/motivation-blog-01-480x325.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
+                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
+                <h5 class="card-title text-capitalize mb-3">ho to give yourself grace to start again</h5>
+                <p class="card-text ms_testo-grigio">Forgive yourself for bad habits you may have started or ...</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="text-center">
-          VIEW ALL POSTS
+        <div id="posts" class="d-inline-block">
+          <span class="text-uppercase">view all posts</span>
         </div>
       </div>
     </section>
@@ -295,6 +331,14 @@
 <script>
 export default {
   name: "CustomMain",
+  data: function () {
+    return {
+      hover: true,
+      hoverDue: true
+    }
+
+  },
+
 };
 </script>
 
@@ -309,9 +353,56 @@ export default {
   color: grey;
 }
 
+.ms_filtro {
+  filter: sepia(100%);
+  filter: opacity(30%);
+}
+
 .ms_bolder {
   font-weight: 500;
 }
+
+.ms_font-alternativo {
+  font-family: 'Playfair Display', serif;
+}
+
+.ms_spaziatore {
+  margin-bottom: 5rem;
+}
+
+.ms_icona-tonda {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+}
+
+#posts {
+  color: #20ad96;
+  border-bottom: 0.1rem solid #20ad96;
+
+}
+
+.icone-hover {
+  position: absolute;
+  top: 18%;
+  right: 13%;
+}
+
+.hovering {
+  display: none;
+}
+
+.card:hover {
+  border: solid white 1px;
+  box-shadow: 2px 2px 10px lightgray;
+
+}
+
+.card-body {
+  min-height: 160px;
+}
+
+
 
 #statistiche {
   width: 100%;
@@ -328,12 +419,6 @@ export default {
     background-image: url(../assets/img/background-pattern-grid-line-06.png);
 
   }
-
-  /*p {
-    text-transform: uppercase;
-    font-weight: 500;
-  }*/
-
 
 
 }
@@ -363,7 +448,8 @@ export default {
 
 
   .freccia {
-    width: 7px;
+    width: 6px;
+
   }
 }
 
