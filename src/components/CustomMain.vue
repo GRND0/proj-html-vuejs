@@ -69,87 +69,39 @@
       </div>
       <div class="wrapper-interno mb-3">
         <div class="row">
-          <div class="col">
+          <div class="col" v-for="(item, index) in items" :key="index">
             <div class="card border-0">
-              <img src="../assets/img/motivation-course-06-480x298.jpg" class="card-img-top" alt="">
+              <img :src="item.img" class="card-img-top" alt="">
               <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title ms_testo-verde fw-bolder">$30.<span class="fs-6">00</span></h5>
-                <p class="card-text fw-bolder mb-4">How to be Successful: Create A Growth Mindset For Success</p>
+                <h5 class="card-title ms_testo-verde fw-bolder">{{ item.cost }}.<span class="fs-6">{{ item.decimal
+                }}</span>
+                </h5>
+                <p class="card-text fw-bolder mb-4">{{ item.title }}</p>
                 <div>
-                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 3 Lessons</small>
-                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0">
-              <img src="../assets/img/motivation-course-05-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title ms_testo-verde fw-bolder">$30.<span class="fs-6">00</span></h5>
-                <p class="card-text fw-bolder mb-4">How to Build Confidence in Your Abilities</p>
-                <div>
-                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 1 Lessons</small>
-                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0">
-              <img src="../assets/img/motivation-course-04-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title ms_testo-verde fw-bolder">$20.<span class="fs-6">00</span></h5>
-                <p class="card-text fw-bolder mb-4">Productivity Machine - Focus in a Distracted World</p>
-                <div>
-                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 5 Lessons</small>
-                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i>{{ item.lessons
+                  }} Lessons </small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i>{{ item.students }} Students </small>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
+
       <div class="wrapper-interno mb-5">
         <div class="row">
-          <div class="col">
+          <div class="col" v-for="(item, index) in itemsD" :key="index">
             <div class="card border-0">
-              <img src="../assets/img/motivation-course-03-480x298.jpg" class="card-img-top" alt="">
+              <img :src="item.img" class="card-img-top" alt="">
               <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title ms_testo-verde fw-bolder">$20.<span class="fs-6">00</span></h5>
-                <p class="card-text fw-bolder mb-4">Effective Time Management Mastery - Complete Guide</p>
+                <h5 class="card-title ms_testo-verde fw-bolder">{{ item.cost }}.<span class="fs-6">{{ item.decimal
+                }}</span>
+                </h5>
+                <p class="card-text fw-bolder mb-4">{{ item.title }}</p>
                 <div>
-                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 18 Lessons</small>
-                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0">
-              <img src="../assets/img/motivation-course-02-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title ms_testo-verde fw-bolder">$25.<span class="fs-6">99</span></h5>
-                <p class="card-text fw-bolder mb-4">Body Language Secrets for Entrepreneurs</p>
-                <div>
-                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 19 Lessons</small>
-                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0">
-              <img src="../assets/img/motivation-course-01-480x298.jpg" class="card-img-top" alt="">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title ms_testo-verde fw-bolder">$19.<span class="fs-6">99</span></h5>
-                <p class="card-text fw-bolder mb-4">Management Skills: The Science of Leadership</p>
-                <div>
-                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> 17 Lessons</small>
-                  <small class="ms_testo-grigio"><i class="far fa-user"></i> 50 Students</small>
+                  <small class="ms_testo-grigio me-3"><i class="fas fa-chalkboard-teacher"></i> {{ item.lessons
+                  }} Lessons </small>
+                  <small class="ms_testo-grigio"><i class="far fa-user"></i> {{ item.students }} Students </small>
                 </div>
               </div>
             </div>
@@ -278,48 +230,20 @@
           <h4 class="ms_font-alternativo fs-1 mb-5">Intersting <span class="ms_testo-verde ms_font-alternativo">articles
               updated daily</span></h4>
         </div>
+
         <div class="row mb-4">
-          <div class="col">
+          <div class="col" v-for="(item, index) in itemsT" :key="index">
             <div class="card border-0">
-              <img src="../assets/img/motivation-blog-04-480x325.jpg" class="card-img-top" alt="">
+              <img :src="item.img" class="card-img-top" alt="">
               <div class="card-body">
-                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
-                <h5 class="card-title text-capitalize mb-3">how to stay true to your personal brand</h5>
-                <p class="card-text ms_testo-grigio">When it comes to your business or career, you want ...</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0">
-              <img src="../assets/img/motivation-blog-03-480x325.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
-                <h5 class="card-title text-capitalize mb-3">5 vital lessons in 5 years of freelancing</h5>
-                <p class="card-text ms_testo-grigio">Being self-employed and working from home, it's easy to get ...</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0">
-              <img src="../assets/img/motivation-blog-02-480x325.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
-                <h5 class="card-title text-capitalize mb-3">11 super useful tips for small-business owners</h5>
-                <p class="card-text ms_testo-grigio">Being a small-business owner poses a ton of challenges. We ...</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0">
-              <img src="../assets/img/motivation-blog-01-480x325.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> May 13, 2020 </small>
-                <h5 class="card-title text-capitalize mb-3">ho to give yourself grace to start again</h5>
-                <p class="card-text ms_testo-grigio">Forgive yourself for bad habits you may have started or ...</p>
+                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> {{ item.date }}}</small>
+                <h5 class="card-title text-capitalize mb-3">{{ item.title }}</h5>
+                <p class="card-text ms_testo-grigio">{{ item.claim }}</p>
               </div>
             </div>
           </div>
         </div>
+
         <div id="posts" class="d-inline-block">
           <span class="text-uppercase">view all posts</span>
         </div>
@@ -331,6 +255,11 @@
 <script>
 export default {
   name: "CustomMain",
+  props: {
+    items: Array,
+    itemsD: Array,
+    itemsT: Array,
+  },
   data: function () {
     return {
       hover: true,

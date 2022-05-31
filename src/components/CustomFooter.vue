@@ -2,39 +2,39 @@
   <div>
     <div class="container-fluid-footer position relative">
       <div class="wrapper-footer">
-        <div class="row">
-          <div class="col">
-            <h6>Adress</h6>
-            <span>
+        <div class="row h-75 my-auto">
+          <div class="col d-flex flex-column justify-content-center ">
+            <h6 class="mb-3 fw-bold text-white">Address</h6>
+            <span class="mb-2">
               382 NE 191st St #87394 Miami, FL 33179-3899
             </span>
-            <span>
+            <span class="mb-2">
               +1(305) 547-9909 (9am - 5pm EST, Monday - Friday)
             </span>
-            <span>
+            <span class="mb-5">
               support@maxcoach.com
             </span>
-            <div>
+            <div >
+              <i class="fab fa-facebook-square"></i>
               <i class="fab fa-twitter"></i>
-              <i class="fab fa-facebook-f"></i>
               <i class="fab fa-instagram"></i>
               <i class="fab fa-linkedin"></i>
             </div>
           </div>
-          <div class="col">
+          <div class="col d-flex">
             <ul>Explore
-              <li>Start here</li>
-              <li>Blog</li>
+              <li v-for="(item, index) in items" :key="index" >{{item.tag}} </li>
+              <!-- <li>Blog</li> 
               <li>About us</li>
               <li>Success story</li>
               <li>Courses</li>
-              <li>Contact us</li>
+              <li>Contact us</li>-->
             </ul>
             <ul>Information
-              <li>Membership</li>
-              <li>Purchase guide</li>
+              <li v-for="(item, index) in itemsD" :key="index" >{{item.tag}}</li>
+              <!-- <li>Purchase guide</li> 
               <li>Privacy policy</li>
-              <li>Terms of service</li>
+              <li>Terms of service</li>-->
             </ul>
           </div>
         </div>
@@ -50,6 +50,10 @@
 <script>
 export default {
   name: "CustomFooter",
+    props: {
+    items: Array,
+    itemsD: Array,
+  },
 };
 </script>
 
@@ -61,9 +65,10 @@ export default {
   background-color: #171621;
 
   .wrapper-footer {
-    height: 300px;
+    height: 500px;
     width: 70%;
     margin: 0 auto;
+    color: lightgray;
 
   }
 }

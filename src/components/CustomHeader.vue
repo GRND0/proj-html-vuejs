@@ -6,14 +6,14 @@
           <div id="logo" class="col h-50 d-flex justify-content-start">
             <img class="h-75" src="../assets/img/dark-logo.png" alt="" />
           </div>
-          <div id="nav" class="col ">
-            <ul class="d-flex justify-content-around ">
-              <li>Home</li>
-              <li>Pages</li>
+          <div id="nav" class="col">
+            <ul class="d-flex justify-content-around">
+              <li v-for="(item, index) in items" :key="index" >{{item.tag}}</li>
+              <!-- <li>Pages</li> 
               <li>Courses</li>
               <li>Features</li>
               <li>Blog</li>
-              <li>Shop</li>
+              <li>Shop</li>-->
             </ul>
           </div>
           <div id="social" class="col d-flex justify-content-end">
@@ -49,6 +49,9 @@
 <script>
 export default {
   name: "CustomHeader",
+  props: {
+    items: Array,
+  },
 };
 </script>
 
