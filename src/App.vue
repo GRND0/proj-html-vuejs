@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
     <CustomHeader :items='nav' />
     <CustomMain :items='cardFirst' :itemsD='cardSecond' :itemsT='cardBottom' />
     <CustomFooter :items='footerEx' :itemsD='footerInf' />
@@ -92,7 +93,7 @@ export default {
       ],
       cardFirst: [
         {
-          img: "../assets/img/motivation-course-06-480x298.jpg",
+          img: require("./assets/img/motivation-course-06-480x298.jpg"),
           cost: "30",
           decimal: "00",
           title: "How to be Successful: Create A Growth Mindset For Success",
@@ -100,7 +101,7 @@ export default {
           students: "50",
         },
         {
-          img: "../assets/img/motivation-course-06-480x298.jpg",
+          img: require("./assets/img/motivation-course-05-480x298.jpg"),
           cost: "30",
           decimal: "00",
           title: "How to Build Confidence in Your Abilities",
@@ -108,7 +109,7 @@ export default {
           students: "50",
         },
         {
-          img: "../assets/img/motivation-course-06-480x298.jpg",
+          img: require("./assets/img/motivation-course-04-480x298.jpg"),
           cost: "20",
           decimal: "00",
           title: "Productivity Machine - Focus in a Distracted World",
@@ -119,7 +120,7 @@ export default {
       ],
       cardSecond: [
         {
-          img: "../assets/img/motivation-course-06-480x298.jpg",
+          img: require("./assets/img/motivation-course-03-480x298.jpg"),
           cost: "20",
           decimal: "00",
           title: "Effective Time Management Mastery - Complete Guide",
@@ -127,7 +128,7 @@ export default {
           students: "50",
         },
         {
-          img: "../assets/img/motivation-course-06-480x298.jpg",
+          img: require("./assets/img/motivation-course-02-480x298.jpg"),
           cost: "25",
           decimal: "99",
           title: "Body Language Secrets for Entrepreneurs",
@@ -135,7 +136,7 @@ export default {
           students: "50",
         },
         {
-          img: "../assets/img/motivation-course-06-480x298.jpg",
+          img: require("./assets/img/motivation-course-01-480x298.jpg"),
           cost: "19",
           decimal: "99",
           title: "Management Skills: The Science of Leadership",
@@ -145,25 +146,25 @@ export default {
       ],
       cardBottom: [
         {
-          img: "../assets/img/motivation-blog-04-480x325.jpg",
+          img: require("./assets/img/motivation-blog-04-480x325.jpg"),
           date: "May 13, 2020",
           title: "how to stay true to your personal brand",
           claim: "When it comes to your business or career, you want ...",
         },
         {
-          img: "../assets/img/motivation-blog-03-480x325.jpg",
+          img: require("./assets/img/motivation-blog-03-480x325.jpg"),
           date: "May 13, 2020",
           title: "5 vital lessons in 5 years of freelancing",
           claim: "Being self-employed and working from home, it's easy to get ...",
         },
         {
-          img: "../assets/img/motivation-blog-02-480x325.jpg",
+          img: require("./assets/img/motivation-blog-02-480x325.jpg"),
           date: "May 13, 2020 ",
           title: "11 super useful tips for small-business owners",
           claim: "Being a small-business owner poses a ton of challenges. We ...",
         },
         {
-          img: "../assets/img/motivation-blog-01-480x325.jpg",
+          img: require("./assets/img/motivation-blog-01-480x325.jpg"),
           date: "May 13, 2020",
           title: "how to give yourself grace to start again",
           claim: "Forgive yourself for bad habits you may have started or ...",

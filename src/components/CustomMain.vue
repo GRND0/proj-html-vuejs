@@ -108,8 +108,8 @@
           </div>
         </div>
         <div class="col-2 mx-auto mb-4">
-          <a class="btn btn-primary " href="#" role="button">View all courses <i
-              class="fas fa-long-arrow-alt-right"></i></a>
+          <a class="btn btn-primary ms_btn-custom px-4" href="#" role="button">View all courses <i
+              class="fas fa-long-arrow-alt-right ms-2"></i></a>
         </div>
       </div>
 
@@ -135,7 +135,7 @@
                 <i class="fas fa-check me-3 ms_testo-verde"></i> Fascinating examples of alpha man
               </li>
             </ul>
-            <a class="btn btn-primary" href="#" role="button">Get Free Ebook</a>
+            <a class="btn btn-primary ms_btn-custom" href="#" role="button">Get Free Ebook</a>
           </div>
           <div class="col d-flex">
             <div class="text-center me-2 position-relative" @mouseover="hover = false" @mouseout="hover = true">
@@ -236,16 +236,17 @@
             <div class="card border-0">
               <img :src="item.img" class="card-img-top" alt="">
               <div class="card-body">
-                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> {{ item.date }}}</small>
+                <small class="ms_testo-grigio mb-2"><i class="far fa-calendar"></i> {{ item.date }}</small>
                 <h5 class="card-title text-capitalize mb-3">{{ item.title }}</h5>
                 <p class="card-text ms_testo-grigio">{{ item.claim }}</p>
               </div>
             </div>
           </div>
         </div>
-
-        <div id="posts" class="d-inline-block">
-          <span class="text-uppercase">view all posts</span>
+        <div class="text-center">
+          <div id="posts" class="d-inline-block">
+            <span class="text-uppercase">view all posts</span>
+          </div>
         </div>
       </div>
     </section>
@@ -329,6 +330,19 @@ export default {
 
 .card-body {
   min-height: 160px;
+}
+
+.ms_btn-custom {
+  padding: 1rem;
+  background-color: #20ad96;
+  padding: 1rem 3rem;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.ms_btn-custom:hover {
+  background-color: #3f3a64;
 }
 
 

@@ -9,11 +9,6 @@
           <div id="nav" class="col">
             <ul class="d-flex justify-content-around">
               <li v-for="(item, index) in items" :key="index" >{{item.tag}}</li>
-              <!-- <li>Pages</li> 
-              <li>Courses</li>
-              <li>Features</li>
-              <li>Blog</li>
-              <li>Shop</li>-->
             </ul>
           </div>
           <div id="social" class="col d-flex justify-content-end">
@@ -33,7 +28,8 @@
               Success isn't overnight. It's when everyday you get a little better
               than the day before. It all adds up.
             </p>
-            <a class="btn btn-primary ms_btn-custom" href="#" role="button">get started for free</a>
+            <a class="btn btn-primary ms_btn-custom" href="#" role="button">get started for free <i
+              class="fas fa-long-arrow-alt-right ms-2"></i></a>
 
           </div>
           <div id="testimonial" class="col d-flex justify-content-end position-relative">
@@ -62,6 +58,14 @@ export default {
 .ms_btn-custom {
     padding: 1rem;
     background-color:#20ad96;
+    padding: 1rem 3rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.ms_btn-custom:hover {
+  background-color: #3f3a64;
 }
 
 #wrapper-header {
@@ -104,7 +108,6 @@ export default {
     #uomo {
       z-index: 1;
     }
-
 
   }
 
